@@ -1,0 +1,21 @@
+{
+	"name": "clubhouse-clone",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "svelte-kit dev",
+		"build": "svelte-kit build",
+		"preview": "svelte-kit preview"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-static": "^1.0.0-next.20",
+		"@sveltejs/kit": "^1.0.0-next.176",
+		"svelte": "^3.43.0",
+		"svelte-preprocess": "^4.9.5",
+		"typescript": "^4.4.3"
+	},
+	"type": "module",
+	"dependencies": {
+		"@100mslive/hms-video": "^0.0.185",
+		"@100mslive/hms-video-store": "^0.2.43"
+	}
+}
